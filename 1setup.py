@@ -8,7 +8,8 @@ if __name__ == "__main__":
     if len(sys.argv) <= 1:
         sys.exit()
 
-    port_name = int(sys.argv[1]) print(f"connecting to port: {port_name}")
+    port_name = int(sys.argv[1]) 
+    print(f"connecting to port: {port_name}")
 
     client = MongoClient('localhost', port_name)
     
